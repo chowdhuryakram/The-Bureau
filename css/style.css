@@ -1,0 +1,82 @@
+/* Defult Css */
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+img{
+    max-width: 100%;
+}
+body{
+    font-family: "Schibsted Grotesk", sans-serif;
+}
+.wrapper{
+    max-width: 1170px;
+    margin: auto;
+}
+.btn{
+    font-size: 16px ;
+    line-height: 19px;
+    padding: 8px 16px;
+    color: #000;
+    border: 2px solid #000;
+    font-weight: 700;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: all .5s;
+    display: inline-block;
+}
+.btn:hover{
+    background-color: #000;
+    color: #fff;
+}
+.header_btn .btn_icon{
+    display: none ;
+    transition: all .5s;
+}
+.header_btn .btn:hover .btn_icon{
+    display: inline-block !important;
+    transition: all .5s;
+    color: #fff;
+}
+.header_btn .template_btn{
+    font-size: 16px ;
+    line-height: 19px;
+    padding: 13px 25px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    font-weight: 700;
+    border-radius: 30px;
+    margin-right: 10px;
+    transition: all .5s;
+}
+.header_btn .template_btn:hover .btn_icon{
+    display: inline-block;
+}
+.hero_heading span{
+    font-family: "Lora", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.hero_btn:hover .hero_btn_icon{
+    display: inline-block;
+}
+.accordian_btn{
+  transition: all .5s !important;
+}
+.accordian_btn i{
+  display: none;
+  margin-left: 5px;
+}
+.accordian_btn:hover i{
+  display: inline-block;
+}
+.img_up_icon{
+  font-size: 40px;
+}
+
+
+
